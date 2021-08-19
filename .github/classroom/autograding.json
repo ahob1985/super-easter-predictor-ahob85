@@ -1,7 +1,7 @@
 {
   "tests": [
     {
-      "name": "TestSuperEasterPredictor",
+      "name": "SuperEasterPredictorTest",
       "setup": "",
       "run": "gradle test",
       "input": "",
