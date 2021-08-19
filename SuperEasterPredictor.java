@@ -9,10 +9,10 @@ public class SuperEasterPredictor
     public static void main(String[] args) 
     {
         Scanner sc = new Scanner(System.in);
-        System.out.println("******************************************************************");
-        System.out.println("Welcome to Super Easter Predictor!");
+        System.out.println("Easter Predictor");
+        System.out.println("By: Hidden Genius");
         System.out.print("Please enter a year greater than 1582: ");
-        int y = sc.nextInt();
+        int y = Integer.parseInt(sc.nextLine());
         //System.out.println("y = " + y);
         int a = y % 19;
         //System.out.println("a = " + a);
@@ -44,7 +44,6 @@ public class SuperEasterPredictor
         //System.out.println("p = " + p);
         int day = p + 1;
         System.out.println("In " + y + ", Easter falls on " + n + "/" + day + ".");
-        System.out.println("Goodbye!");
-        System.out.println("******************************************************************");
+        System.out.println("Thank you! Goodbye!");
     }
 }
